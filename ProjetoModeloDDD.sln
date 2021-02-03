@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{FCF1A1F0-8EE9-4246-9CA8-9F51E56D54F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{340371FF-D382-4EF1-906B-AEF57B3C4BE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{FAC64DCA-63E3-49D1-90D4-68B4283B3462}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{82719CF2-D762-45BA-ADAE-B8D4DA9CA08A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{931B1CB3-0FAC-4B6D-838D-701C7D4CCC2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Documentation", "5 - Documentation", "{FA8B5416-EE13-462F-957A-8EE3EB7872E9}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{84AD027E-EC50-46E2-A8BA-D6814D42F4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CossCutting", "4.1 - CossCutting", "{7D4AAB1F-0840-4F11-AAB0-0D955995F88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.MVC", "ProjetoModeloDDD.MVC\ProjetoModeloDDD.MVC.csproj", "{E0632655-AA5E-463E-AD51-1C3F68E71427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0632655-AA5E-463E-AD51-1C3F68E71427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0632655-AA5E-463E-AD51-1C3F68E71427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0632655-AA5E-463E-AD51-1C3F68E71427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0632655-AA5E-463E-AD51-1C3F68E71427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84AD027E-EC50-46E2-A8BA-D6814D42F4AE} = {931B1CB3-0FAC-4B6D-838D-701C7D4CCC2C}
+		{7D4AAB1F-0840-4F11-AAB0-0D955995F88C} = {931B1CB3-0FAC-4B6D-838D-701C7D4CCC2C}
+		{E0632655-AA5E-463E-AD51-1C3F68E71427} = {FCF1A1F0-8EE9-4246-9CA8-9F51E56D54F5}
+	EndGlobalSection
+EndGlobal

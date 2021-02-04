@@ -2,3 +2,28 @@
 https://www.youtube.com/watch?v=i9Il79a2uBU&feature=youtu.be
 
 https://www.eduardopires.net.br/2014/10/tutorial-asp-net-mvc-5-ddd-ef-automapper-ioc-dicas-e-truques/
+
+
+Não esquecer de adicionar a referencia do dominio em todos os projetos excepto nele proprio
+Todas as classes conhecem o dominio e o dominio não reconhece ninguém 
+
+
+CodeFirst
+
+Depois de criar  no Domain as entidades à semelhança do que se faz no Modelo do MVC , entidade Cliente e Produto
+Na Infra|Data| Contexto , depois de definir algumas convenções para as colunas das tabelas de forma a que o EF faça o que pertendo
+Vou ativar da Data-Migrations
+
+2 passo
+
+Agora já poderia trabalhar , se estive a trabalhar com o mvc bastava ir ao controller e fazer a referencia do
+DbContext e já ficaria a funcionar.
+Mas não é isso que se pretende o mvc nãp precisa de saber quais as queries,as base de dados o MVC é ignarante
+Então precisamos de camada de repositorio.
+
+2.1 - Camada de dominio
+ 2.1.1 - Interfaces     
+
+
+ video : 1h17m 
+
